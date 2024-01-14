@@ -2,10 +2,9 @@ server:
   port: 8189
   servlet:
     context-path: /demo
-#jwt:
-#  secret:111ddd
-#  lifetime:30m
-
+jwt:
+  secret:111ddddddfafafafaffafafafaf
+  lifetime:30m
 spring:
   datasource:
     driver-class-name: org.h2.Driver
